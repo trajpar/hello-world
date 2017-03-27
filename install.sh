@@ -1,8 +1,10 @@
 #!/bin/bash
 
-# Install unzip
+# Install unzip, ffmpeg, python
 
-sudo apt-get install unzip
+sudo apt install unzip
+sudo apt install ffmpeg
+sudo apt install python
 
 # Fetch and unpack rclone
 
@@ -26,7 +28,3 @@ sudo mandb
 
 sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
 sudo chmod a+rx /usr/local/bin/youtube-dl
-
-# Install ffmpeg
-
-sudo apt install ffmpeg
