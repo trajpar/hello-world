@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# Update repo
+
+sudo apt-get update
+sudo apt-get upgrade
+
 # Install unzip, ffmpeg, python
 
 sudo apt install unzip
