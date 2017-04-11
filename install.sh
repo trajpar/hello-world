@@ -33,3 +33,7 @@ sudo mandb
 
 sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
 sudo chmod a+rx /usr/local/bin/youtube-dl
+
+# Install BeautifulSoup4
+
+sudo apt-get install python3-bs4
