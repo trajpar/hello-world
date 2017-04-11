@@ -29,7 +29,7 @@ def process(url):
 
     for tag in soup.findAll('a', href=True):
         tag['href'] = urljoin(url, tag['href'])
-        print(tag['href'])
+        print(tag['href']+',')
 
 
 def main():
